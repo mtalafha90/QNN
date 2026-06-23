@@ -1,0 +1,26 @@
+CUDA available: False
+Torch device: cpu
+1) Generating synthetic BMR source...
+2) Solving classical finite-difference SFT...
+3) Training QNN-SFT model...
+epoch=00000 loss=5.021e-02 pde=1.870e-03 ic=1.916e-03 bc=3.427e-03 ref=1.222e-03
+epoch=00100 loss=2.186e-04 pde=3.354e-05 ic=1.641e-06 bc=1.753e-06 ref=1.962e-06
+epoch=00200 loss=1.672e-04 pde=2.658e-05 ic=5.013e-07 bc=5.027e-07 ref=1.538e-06
+epoch=00300 loss=1.769e-04 pde=2.871e-05 ic=4.476e-07 bc=4.375e-07 ref=1.511e-06
+epoch=00400 loss=1.432e-04 pde=2.214e-05 ic=4.056e-07 bc=3.652e-07 ref=1.490e-06
+epoch=00500 loss=1.659e-04 pde=2.659e-05 ic=4.053e-07 bc=3.807e-07 ref=1.510e-06
+epoch=00600 loss=1.742e-04 pde=2.846e-05 ic=3.594e-07 bc=3.747e-07 ref=1.467e-06
+epoch=00700 loss=1.945e-04 pde=3.285e-05 ic=3.533e-07 bc=3.206e-07 ref=1.393e-06
+epoch=00800 loss=1.690e-04 pde=2.755e-05 ic=3.096e-07 bc=2.896e-07 ref=1.456e-06
+epoch=00900 loss=1.598e-04 pde=2.567e-05 ic=3.009e-07 bc=2.649e-07 ref=1.470e-06
+epoch=01000 loss=1.746e-04 pde=2.874e-05 ic=3.493e-07 bc=2.764e-07 ref=1.430e-06
+epoch=01100 loss=1.545e-04 pde=2.493e-05 ic=3.289e-07 bc=2.200e-07 ref=1.387e-06
+4) Saving arrays...
+5) Making plots...
+6) Metrics:
+Field RMSE          : 1.173220e-03
+Field relative RMSE : 8.281109e-01
+Dipole RMSE         : 9.313414e-06
+North polar RMSE    : 1.807619e-04
+South polar RMSE    : 1.957479e-04
+Done. Check results/figures and results/arrays.
